@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Javascript Bootstrap -->
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Script fontawesome -->
+    <script src="https://kit.fontawesome.com/a87cb3933c.js" crossorigin="anonymous"></script>
+
+    <style>
+        .foto-perfil {
+            margin-top: -50px;
+            height: 60%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 60%;
+        }
+    </style>
+    <title>Projeto portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+            <h3>Port<span>Folio</span></h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About-me</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Projetos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Serviços</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <br>
+    <section class="jumbotron text-center">
+        <br>
+        <div class="container">
+            <img class="foto-perfil" src="Assets/img/foto-apresentação.png" alt="">
+            <h1 class="jumbotron-heading">Victor Alecrim</h1>
+            <p class="lead text-muted">Estudante de programação e desenvolvimento web</p>
+            <p>
+                <a href="#" class="btn btn-dark my-2">Contato</a>
+            </p>
+
+        </div>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <a href="https://github.com/Victoralecrim?tab=repositories" class="texto-container">
+                <h1>VER TODOS OS PROJETOS</h1>
+            </a>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="Assets/img/projeto1.png" width="100%">
+                        <div class="card-body">
+                            <p class="card-text">Este é um projeto que eu desenvolvi de uma landing Page usando as
+                                tecnologias:</p>
+                            <ul>
+                                <li>HMTL</li>
+                                <li>CSS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Victoralecrim/landing_page"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Ver codigo</button></a>
+                                    <a href="https://indecorlandingpagevictoralecrim.netlify.app/"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="Assets/img/exemploprojeto2.png">
+                        <div class="card-body">
+                            <p class="card-text">Este é um projeto que eu desenvolvi de um site pessoal como parte de um
+                                portfolio usando as tecnologias:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Javascript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Victoralecrim/sitefront_segundaEtapa"><button
+                                            type="button" class="btn btn-sm btn-outline-primary">Ver codigo</button></a>
+                                    <a href="https://vainfohouse.netlify.app/"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="Assets/img/projeto03.png">
+                        <div class="card-body">
+                            <p class="card-text">Mini projeto que fiz de um site com frases de Star wars usando as
+                                tecnologias:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Victoralecrim/STARDEVS"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Ver codigo</button></a>
+                                    <a href="#"><button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button></a>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre mim -->
+
+    <section class="jumbotron text-center">
+        <div class="container-fluid">
+            <h2 class="jumbotrom heading">Sobre mim</h2>
+            <p class="lead">Estudante de programação no Colegio Tecnico COTEMIG</p>
+            <button type="button" class="btn btn-danger">Vamos conversar</button>
+            <br>
+            <img class="foto-apresentação" src="Assets/img/profile-picture/foto de perfil.jfif" alt="">
+        </div>
+    </section>
+
+
+    <!-- Seção de nossos Serviços -->
+    <br>
+    
+</body>
+
+</html>
