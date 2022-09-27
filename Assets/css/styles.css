@@ -336,6 +336,10 @@ section .container>h1:nth-child(1) {
     margin-top: 12px;
 }
 
+.C-rodapé>h3{
+    color: #858585;
+}
+
 @media only screen and (max-width: 414px) {
 
     .C-rodapé form input:last-child {
@@ -371,6 +375,11 @@ section .container>h1:nth-child(1) {
     transition: scale(0.15s);
 }
 
-.social-link i:nth-child(2):hover{
+i{
     color: orangered;
 }
+
+i:nth-child(2n+1):hover{
+    color: rgb(56, 44, 235);
+}
+
