@@ -1,4 +1,4 @@
-.navbar-brand{
+.navbar-brand {
     margin-left: 5px;
 }
 
@@ -7,66 +7,67 @@
 }
 
 
-span{
+span {
     color: red;
 }
 
-h3{
+h3 {
     font-size: 5px;
     color: aliceblue;
 }
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.navbar-nav:hover{
+.navbar-nav:hover {
     color: aqua;
 }
 
-.nav-item .nav-link{
+.nav-item .nav-link {
     color: aliceblue;
 }
-.nav-item .nav-link:hover{
+
+.nav-item .nav-link:hover {
     color: red;
 }
 
-.container h1:nth-child(1){
+.container h1:nth-child(1) {
     text-align: center;
     color: rgb(20, 177, 125);
     text-decoration: underline;
 }
 
-.texto-container h1{
+.texto-container h1 {
     margin-top: 10px;
     text-align: center;
 }
 
-.container-flex{
+.container-flex {
     display: flex;
     align-items: center;
     margin-left: -5%;
     margin-top: -2%;
 }
 
-.foto-apresentação{
+.foto-apresentação {
     display: inline-block;
     align-items: center;
     margin-top: 10px;
     margin-left: 7px;
 }
 
-@media (min-width: 750px) and (max-width: 1600px){
-    .foto-apresentação{
+@media (min-width: 750px) and (max-width: 1600px) {
+    .foto-apresentação {
         display: inline-block;
         margin-top: 20px;
     }
 }
 
 @media (max-width: 430px) {
-    .foto-apresentação{
+    .foto-apresentação {
         display: flex;
         border-radius: 10%;
         max-width: auto;
@@ -74,21 +75,21 @@ h3{
         visibility: hidden;
         margin-top: 40%;
     }
-    
+
 }
 
 @media (max-width: 600px) {
-    .foto-apresentação{
+    .foto-apresentação {
         margin-top: 15px;
     }
 }
 
 
-section .container>h1:nth-child(1){
+section .container>h1:nth-child(1) {
     color: red;
 }
 
-.Container{
+.Container {
     width: 100%;
     background-color: #F3EEEE;
     padding: 50px;
@@ -96,9 +97,7 @@ section .container>h1:nth-child(1){
 }
 
 
-
-
-.Container h1{
+.Container h1 {
     text-align: center;
     font-size: 70px;
     font-family: "Inria Sans";
@@ -109,85 +108,91 @@ section .container>h1:nth-child(1){
 
 
 
-.Container p{
+.Container p {
     text-align: center;
     font-family: "Inria Sans";
     color: #685B5B;
     margin-top: 25px;
-    
-} 
+
+}
 
 
-.C-card{
+.C-card {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
     text-align: center;
     flex-wrap: wrap;
+
 }
 
 
-.Card{
+.Card {
     background-color: #FFFBFB;
     padding: 50px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
-    
+
 }
 
-.Card img{
+.Card img {
     width: 75px;
     height: auto;
 }
 
-.C-card-2{
+.C-card-2 {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
     text-align: center;
     flex-wrap: wrap;
+
 }
-.Card h3{
+
+.Card h3 {
     font-size: 20px;
     font-family: "Inria Sans";
     font-weight: 700;
+    color: red;
 }
-.Card h4{
+
+.Card h4 {
     font-family: "Inria Sans";
     font-weight: lighter;
     color: #BEB7B7;
     margin-top: 15px;
 }
 
-.Card:hover{
+.Card:hover {
     transform: scale(1.1);
     transition-duration: .9s;
 }
 
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px) {
 
     /*===============Serviços================*/
 
-    .Card{
+    .Card {
         margin-top: 35px;
     }
 
-    .C-card-2{
+    .C-card-2 {
         margin-top: 35px;
     }
 
 
 
 }
+
 /*===============Projetos================*/
 
-.C-projetos{
+.C-projetos {
     width: 100%;
     background-color: #fff;
     padding: 85px;
 }
 
-.C-projetos h1{
+.C-projetos h1 {
     text-align: center;
     font-size: 65px;
     font-family: "Inria Sans";
@@ -195,40 +200,40 @@ section .container>h1:nth-child(1){
     padding-top: 14%;
 }
 
-.C-projetos p{
-     text-align: center;
-     font-family: "Inria Sans";
-     color: #685B5B;
-     font-weight: lighter;
-     margin-top: 8px;
+.C-projetos p {
+    text-align: center;
+    font-family: "Inria Sans";
+    color: #685B5B;
+    font-weight: lighter;
+    margin-top: 8px;
 }
 
-.img-projetos{
-   display: flex;
-   justify-content: center;
-   gap: 70px;
-   margin-top: 150px;
-   flex-wrap: wrap;
+.img-projetos {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 150px;
+    flex-wrap: wrap;
 }
 
-.img-projetos img{
+.img-projetos img {
     width: 450px;
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     border-radius: 10px;
 }
 
-.img-2 img{
+.img-2 img {
     width: 450px;
     height: auto;
     margin-left: 32%;
     margin-top: 35px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     border-radius: 10px;
-} 
+}
 
 
-.C-projetos img:hover{
+.C-projetos img:hover {
     transform: scale(1.1);
     transition: 0.5s;
     transition-duration: 0.9s;
@@ -236,21 +241,21 @@ section .container>h1:nth-child(1){
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px) {
 
-    
-    .img-projetos img{
+
+    .img-projetos img {
         width: 300px;
         height: auto;
-       
+
     }
 
-    .img-2 img{
+    .img-2 img {
         width: 300px;
         height: auto;
         margin-left: -28px;
         margin-top: 50px;
-       
+
     }
 }
 
@@ -265,11 +270,107 @@ section .container>h1:nth-child(1){
     justify-content: center;
 }
 
-.container-services p:nth-child(1){
+.container-services p:nth-child(1) {
     color: red;
     font-size: 24px;
 }
 
-.our-services-text{
+.our-services-text {
     margin-left: 5px;
+}
+
+/*===============Rodapé================*/
+
+.C-rodapé {
+    width: 100%;
+    background-color: #383535;
+    padding: 10%;
+    height: 100%;
+    margin-top: -72px;
+}
+
+.C-rodapé h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Inria Sans";
+    font-weight: lighter;
+}
+
+.C-rodapé form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 50px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+.C-rodapé form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px;
+    padding-left: 1%;
+    border-radius: 30px;
+    background-color: #C229AA;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 10.4%;
+    margin-top: 30px;
+    width: 150px;
+    height: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.C-rodapé form input:last-child:hover {
+    transform: scale(1.1);
+    transition-duration: 0.9s;
+}
+
+.C-rodapé>h4{
+    color: rgba(253, 253, 253, 0.438);
+    font-weight: normal;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 414px) {
+
+    .C-rodapé form input:last-child {
+        width: 100px;
+
+    }
+
+}
+
+/* Estilização dos icones das redes sociais */
+
+.socials {
+    display: flex;
+    gap: 35px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.social-link{
+    border-radius: 50%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, #33262a, #f00505);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(12, 15, 11);
+    transition: scale(0.15s);
+}
+
+.social-link i:nth-child(2):hover{
+    color: orangered;
 }

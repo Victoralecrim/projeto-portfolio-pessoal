@@ -9,7 +9,8 @@
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    <!-- Animate on scroll script libraly -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Javascript Bootstrap -->
     <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -80,9 +81,9 @@
             </p>
 
         </div>
-        <a href=""><i class="fab fa-instagram"></i></a>
-        <a href=""><i class="fab fa-linkedin"></i></a>
-        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/vitao_alecrim11/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/victor-alecrim-90797a239/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/victorcarmo.alecrim"><i class="fab fa-facebook"></i></a>
 
     </section>
     <div class="album py-5 bg-light">
@@ -109,7 +110,6 @@
                                     <a href="https://indecorlandingpagevictoralecrim.netlify.app/"><button type="button"
                                             class="btn btn-sm btn-outline-success">Ver projeto</button></a>
                                 </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,6 @@
                                     <a href="https://vainfohouse.netlify.app/"><button type="button"
                                             class="btn btn-sm btn-outline-success">Ver projeto</button></a>
                                 </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -156,7 +155,6 @@
                                     <a href="#"><button type="button" class="btn btn-sm btn-outline-success">Ver
                                             projeto</button></a>
                                 </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -169,15 +167,15 @@
     <!-- Sobre mim -->
 
     <section class="jumbotron text-center">
-        <div class="container-fluid">
+        <div class="container">
             <h2 class="jumbotrom heading">Sobre mim</h2>
             <p class="lead">Estudante de programação no Colegio Tecnico COTEMIG</p>
             <button type="button" class="btn btn-danger">Vamos conversar</button>
             <br>
-            <img class="foto-apresentação" src="Assets/img/profile-picture/foto de perfil.jfif" alt="">
         </div>
+        <br>
+        <img class="foto-apresentação" src="Assets/img/profile-picture/foto de perfil.jfif" alt="">
     </section>
-
 
     <!-- Seção de nossos Serviços -->
     <br>
@@ -187,115 +185,75 @@
             <h1 class="jumbotrom heading">SERVIÇOS</h1>
         </div>
         <br>
-        <section class="Container" data-aos="fade-up">
+        <section class="Container" data-aos="fade-down">
             <div class="container-services">
-                <h2 class="our-services-text">Nossos serviços pra você:</h2>
+                <h2 class="our-services-text">Meus serviços pra você:</h2>
             </div>
-            <div class="C-card" data-aos="fade-up">
+            <div class="C-card" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000">
                 <div class="Card">
-                    <img src="phone.png" alt="phone">
+                    <img src="Assets/img/phone.png" alt="phone">
                     <h3>Desenvolvimento Mobile</h3>
                     <h4>Lorem Ipsum é simplesmente
                         <br> uma simulação de texto da
                         <br> indústria tipográfica e de
-                        <br> impressos</h4>
+                        <br> impressos
+                    </h4>
                 </div>
                 <!--Card-->
 
                 <div class="Card">
-                    <img src="desktop.png" alt="desktop">
+                    <img src="Assets/img/desktop.png" alt="desktop">
                     <h3>Desenvolvimento Web</h3>
                     <h4>Lorem Ipsum é simplesmente
                         <br> uma simulação de texto da
                         <br> indústria tipográfica e de
-                        <br> impressos</h4>
+                        <br> impressos
+                    </h4>
                 </div>
                 <!--Card-->
 
                 <div class="Card">
-                    <img src="grafico.png" alt="grafico">
+                    <img src="Assets/img/UI-UXGrafic.png" alt="grafico">
                     <h3>Crescimento de Marca</h3>
                     <h4>Lorem Ipsum é simplesmente
                         <br> uma simulação de texto da
                         <br> indústria tipográfica e de
-                        <br> impressos</h4>
+                        <br> impressos
+                    </h4>
                 </div>
                 <!--Card-->
             </div>
             <!--C-card-->
-
-            <div class="C-card-2" data-aos="fade-up">
-
-                <div class="Card">
-                    <img src="computador.png" alt="computador">
-                    <h3>Desenvolvimento Web</h3>
-                    <h4>Lorem Ipsum é simplesmente
-                        <br> uma simulação de texto da
-                        <br> indústria tipográfica e de
-                        <br> impressos</h4>
-                </div>
-                <!--Card-->
-
-
-                <div class="Card">
-                    <img src="camera.png" alt="camera">
-                    <h3>Crescimento de Marca</h3>
-                    <h4>Lorem Ipsum é simplesmente
-                        <br> uma simulação de texto da
-                        <br> indústria tipográfica e de
-                        <br> impressos</h4>
-                </div>
-                <!--Card-->
-
-
-                <div class="Card">
-                    <img src="paisagem.png" alt="paisagem">
-                    <h3>Desenvolvimento Mobile</h3>
-                    <h4>Lorem Ipsum é simplesmente
-                        <br> uma simulação de texto da
-                        <br> indústria tipográfica e de
-                        <br> impressos</h4>
-                </div>
-                <!--Card-->
-
-            </div>
-            <!--C-card-2-->
         </section>
-        <!--contAiner-->
-
-
-        <!-- <section class="C-projetos" data-aos="fade-up">
-            <h1>Meus projetos</h1>
-            <p>Meu serviços pra você faça sua oferta e me mande uma mensagem </p>
-            <p>Nossos serviços pra você</p>
-            <div class="img-projetos" data-aos="fade-up">
-                <img src="projeto-1.png" alt="projeto">
-                <img src="projeto-2.png" alt="projeto">
-            </div>
-            img-projetos-->
-            <!-- <div class="img-2"><img src="projeto-3.png" alt="projeto"></div>
-        </section> -->
-        
+        <br><br><br>
 
         <section class="C-rodapé">
-            <h1>Nos envie uma mensagem para a gente fechar o projeto</h1>
+            <h2>Me envie uma mensagem para a gente fechar o projeto</h2>
             <form>
                 <input type="email" name="email" id="email" placeholder="Envie uma mensagem">
                 <input type="submit" name="submit" value="Enviar">
             </form>
+            <br>
+            <h4>Para mais informações por favor cliquem no link abaixo para seguirem minhas redes sociais:</h4>
+            <br><br>
+            <div class="socials">
+                <a class="social-link" href="https://www.instagram.com/vitao_alecrim11/"><i class="fab fa-instagram"></i></a>
+                <a class="social-link" href="https://www.linkedin.com/in/victor-alecrim-90797a239/"><i class="fab fa-linkedin"></i></a>
+                <a class="social-link" href="https://www.facebook.com/victorcarmo.alecrim"><i class="fab fa-facebook"></i></a>
+            </div>
         </section>
         <!--C-rodapé-->
 
-        <script src="script.js"></script>
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-            AOS.init();
+            AOS.init({
+                duration: 400,
+                delay: 2,
+            });
         </script>
 
     </section>
-
-
 
 </body>
 
