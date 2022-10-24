@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: black;
+}
+
 .navbar-brand {
     margin-left: 5px;
 }
@@ -398,3 +408,31 @@ i:nth-child(2n+1):hover{
     color: rgb(56, 44, 235);
 }
 
+
+.imgdarkmode{
+    width: 18px;
+    height: 20px;
+    margin-top: 5px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.Dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.Dark-mode .card-body{
+    color: black;
+}
+
+.Dark-mode .Container {
+    background-color: black;
+}
+
+.contato{
+    font-size: 20px;
+}
