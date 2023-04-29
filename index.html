@@ -1,268 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/css/styles.css" />
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <!-- Animate on scroll script libraly -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Javascript Bootstrap -->
     <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-n1w+VK2c3v4JGBb2CnYf4spJFpZLz0lGJfI0jmLwBazAKU6Ly8n6d/BM9cKdzJN3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Script fontawesome -->
-    <script src="https://kit.fontawesome.com/a87cb3933c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a87cb3933c.js"
+      crossorigin="anonymous"
+    ></script>
 
     <style>
-        .foto-perfil {
-            margin-top: -50px;
-            height: 10%;
-            width: 14%;
-            max-width: 100%;
-            border-radius: 60%;
-        }
-
+      .foto-perfil {
+        margin-top: -50px;
+        height: 10%;
+        width: 14%;
+        max-width: 100%;
+        border-radius: 60%;
+      }
     </style>
     <title>Projeto portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" href="#">
-            <h3>Port<span>Folio</span></h3>
-        </a>
+      <a class="navbar-brand" href="#">
+        <h3>Port<span>Folio</span></h3>
+      </a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
 
-            </ul>
-
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About-me</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Projetos</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Serviços</a>
-                </li>
-                <img class="imgdarkmode" src="Assets/img/ying-e-yang_sm.jpg" onclick="Darkmode()"></img>
-
-            </ul>
-
-        </div>
-
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About-me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Projetos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <img
+            class="imgdarkmode"
+            src="Assets/img/ying-e-yang_sm.jpg"
+            onclick="Darkmode()"
+          />
+        </ul>
+      </div>
     </nav>
-    <br>
+    <br />
     <section class="jumbotron text-center">
-        <br>
-        <div class="container">
-            <img class="foto-perfil" src="Assets/img/profile-picture/foto-apresentação200.png" alt="">
-            <h1 class="jumbotron-heading">Victor Alecrim</h1>
-            <p class="lead text-muted">Estudante de programação e desenvolvimento web</p>
-            <p class="contato">
-                Contato:
-            </p>
-
-        </div>
-        <a class="links-container" href="https://www.instagram.com/vitao_alecrim11/"><i
-                class="fab fa-instagram"></i></a>
-        <a class="links-container" href="https://www.linkedin.com/in/victor-alecrim-90797a239/"><i
-                class="fab fa-linkedin"></i></a>
-        <a class="links-container" href="https://www.facebook.com/victorcarmo.alecrim"><i
-                class="fab fa-facebook"></i></a>
-
+      <br />
+      <div class="container">
+        <img
+          class="foto-perfil"
+          src="Assets/img/profile-picture/foto-apresentação200.png"
+          alt=""
+        />
+        <h1 class="jumbotron-heading">Victor Alecrim</h1>
+        <p class="lead text-muted">
+          Estudante de programação e desenvolvimento web
+        </p>
+        <p class="contato">Contato:</p>
+      </div>
+      <a
+        class="links-container"
+        href="https://www.instagram.com/vitao_alecrim11/"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="links-container"
+        href="https://www.linkedin.com/in/victor-alecrim-90797a239/"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        class="links-container"
+        href="https://www.facebook.com/victorcarmo.alecrim"
+        ><i class="fab fa-facebook"></i
+      ></a>
     </section>
     <div class="album py-5">
-        <div class="container">
-            <a href="https://github.com/Victoralecrim?tab=repositories" class="texto-container">
-                <h1>VER TODOS OS PROJETOS</h1>
-            </a>
-            <br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="Assets/img/projeto1.png" width="100%">
-                        <div class="card-body">
-                            <p class="card-text">Este é um projeto que eu desenvolvi de uma landing Page usando as
-                                tecnologias:</p>
-                            <ul>
-                                <li>HMTL</li>
-                                <li>CSS</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/Victoralecrim/landing_page"><button type="button"
-                                            class="btn btn-sm btn-outline-primary">Ver codigo</button></a>
-                                    <a href="https://indecorlandingpagevictoralecrim.netlify.app/"><button type="button"
-                                            class="btn btn-sm btn-outline-success">Ver projeto</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <a
+          href="https://github.com/Victoralecrim?tab=repositories"
+          class="texto-container"
+        >
+          <h1>VER TODOS OS PROJETOS</h1>
+        </a>
+        <br />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="card-img-top"
+                src="Assets/img/projeto1.png"
+                width="100%"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Este é um projeto que eu desenvolvi de uma landing Page usando
+                  as tecnologias:
+                </p>
+                <ul>
+                  <li>HMTL</li>
+                  <li>CSS</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Victoralecrim/landing_page"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        Ver codigo
+                      </button></a
+                    >
+                    <a
+                      href="https://indecorlandingpagevictoralecrim.netlify.app/"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-success"
+                      >
+                        Ver projeto
+                      </button></a
+                    >
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="Assets/img/exemploprojeto2.png">
-                        <div class="card-body">
-                            <p class="card-text">Este é um projeto que eu desenvolvi de um site pessoal como parte de um
-                                portfolio usando as tecnologias:</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Bootstrap</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/Victoralecrim/sitefront_segundaEtapa"><button
-                                            type="button" class="btn btn-sm btn-outline-primary">Ver codigo</button></a>
-                                    <a href="https://vainfohouse.netlify.app/"><button type="button"
-                                            class="btn btn-sm btn-outline-success">Ver projeto</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="Assets/img/projeto03.png">
-                        <div class="card-body">
-                            <p class="card-text">Mini projeto que fiz de um site com frases de Star wars usando as
-                                tecnologias:</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/Victoralecrim/STARDEVS"><button type="button"
-                                            class="btn btn-sm btn-outline-primary">Ver codigo</button></a>
-                                    <a href="#"><button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="Assets/img/vainfohouse.png" />
+              <div class="card-body">
+                <p class="card-text">
+                  Este é um projeto que eu desenvolvi de um site pessoal como
+                  parte de um portfolio usando as tecnologias:
+                </p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Javascript</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://github.com/Victoralecrim/sitefront_segundaEtapa"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        Ver codigo
+                      </button></a
+                    >
+                    <a href="https://vainfohouse.netlify.app/"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-success"
+                      >
+                        Ver projeto
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="Assets/img/projeto03.png" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mini projeto que fiz de um site com frases de Star wars usando
+                  as tecnologias:
+                </p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Victoralecrim/STARDEVS"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        Ver codigo
+                      </button></a
+                    >
+                    <a href="#"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-success"
+                      >
+                        Ver projeto
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Sobre mim -->
 
     <section class="jumbotron text-center">
-        <div class="container">
-            <h2 class="jumbotrom heading">Sobre mim</h2>
-            <p class="lead">Estudante de programação, Cursando 2° ano Tecnico em Informatica no Colegio COTEMIG</p>
-            <br>
-        </div>
-        <br>
-        <img class="foto-apresentação" src="Assets/img/profile-picture/foto de perfil.jfif" alt="">
+      <div class="container">
+        <h2 class="jumbotrom heading">Sobre mim</h2>
+        <p class="lead">
+          Estudante de programação, Cursando 2° ano Tecnico em Informatica no
+          Colegio COTEMIG
+        </p>
+        <br />
+      </div>
+      <br />
+      <img
+        class="foto-apresentação"
+        src="Assets/img/profile-picture/foto de perfil.jfif"
+        alt=""
+      />
     </section>
 
-    <!-- Seção de nossos Serviços -->
-    <br>
+    <!-- Seção de Conhecimentos -->
+    <br />
 
     <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotrom heading">SERVIÇOS</h1>
+      <div class="container">
+        <h1 class="jumbotrom heading">Conhecimentos</h1>
+      </div>
+      <br />
+      <section class="Container" data-aos="fade-down">
+        <div class="container-services">
+          <h2 class="our-services-text">Meus Conhecimentos:</h2>
         </div>
-        <br>
-        <section class="Container" data-aos="fade-down">
-            <div class="container-services">
-                <h2 class="our-services-text">Meus serviços pra você:</h2>
-            </div>
-            <div class="C-card" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000">
-                <div class="Card">
-                    <img src="Assets/img/phone.png" alt="phone">
-                    <h3>Desenvolvimento Mobile</h3>
-                    <h4>Lorem Ipsum é simplesmente
-                        <br> uma simulação de texto da
-                        <br> indústria tipográfica e de
-                        <br> impressos
-                    </h4>
-                </div>
-                <!--Card-->
+        <div
+          class="C-card"
+          data-aos="fade-up"
+          data-aos-delay="30"
+          data-aos-duration="1000"
+        >
+          <div class="Card">
+            <h3>HTML</h3>
+            <img src="Assets/img/html.png" alt="html-image" />
+          </div>
+          <!--Card-->
 
-                <div class="Card">
-                    <img src="Assets/img/desktop.png" alt="desktop">
-                    <h3>Desenvolvimento Web</h3>
-                    <h4>Lorem Ipsum é simplesmente
-                        <br> uma simulação de texto da
-                        <br> indústria tipográfica e de
-                        <br> impressos
-                    </h4>
-                </div>
-                <!--Card-->
+          <div class="Card">
+            <h3>CSS</h3>
+            <img src="Assets/img/css.png" alt="desktop" />
+          </div>
+          <!--Card-->
 
-                <div class="Card">
-                    <img src="Assets/img/UI-UXGrafic.png" alt="grafico">
-                    <h3>Crescimento de Marca</h3>
-                    <h4>Lorem Ipsum é simplesmente
-                        <br> uma simulação de texto da
-                        <br> indústria tipográfica e de
-                        <br> impressos
-                    </h4>
-                </div>
-                <!--Card-->
-            </div>
-            <!--C-card-->
-        </section>
-        <br><br><br>
+          <div class="Card">
+            <h3>JAVASCRIPT</h3>
+            <img src="Assets/img/Javascript.png" alt="grafico" />
+          </div>
+          <div class="Card">
+            <h3>Boostrap</h3>
+            <img src="Assets/img/Bootstrap.png" alt="Bootstrap-image" />
+          </div>
 
-        <section class="C-rodapé">
-            <h2>Me envie uma mensagem para a gente fechar o projeto</h2>
-            <form>
-                <input type="email" name="email" id="email" placeholder="Envie uma mensagem">
-                <input type="submit" name="submit" value="Enviar">
-            </form>
-            <br>
-            <h4>Para mais informações por favor cliquem no link abaixo para seguirem minhas redes sociais:</h4>
-            <br><br>
-            <div class="socials">
-                <a class="social-link first-link" href="https://www.instagram.com/vitao_alecrim11/"><i
-                        class="fab fa-instagram"></i></a>
-                <a class="social-link second-link" href="https://www.linkedin.com/in/victor-alecrim-90797a239/"><i
-                        class="fab fa-linkedin"></i></a>
-                <a class="social-link third-link" href="https://www.facebook.com/victorcarmo.alecrim"><i
-                        class="fab fa-facebook"></i></a>
-            </div>
-            <br><br>
-            <h3>Developed by &copy; Victor Alecrim 2022</h3>
-        </section>
-        <!--C-rodapé-->
+          <div class="Card">
+            <h3>SCSS</h3>
+            <img src="Assets/img/SCSS.png" alt="" />
+          </div>
 
+          <div class="Card">
+            <h3>Csharp</h3>
+            <img src="Assets/img/Csharp_Logo.png" alt="desktop" />
+          </div>
+          <div class="Card">
+            <h3>MYSQL</h3>
+            <br />
+            <img src="Assets/img/mysql-logo.png" alt="desktop" />
+          </div>
+          <!--Card-->
 
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 400,
-                delay: 2,
-            });
-        </script>
+          <!--Card-->
+        </div>
+        <!--C-card-->
+      </section>
+      <br /><br /><br />
 
+      <section class="C-rodapé">
+        <h2>Me envie uma mensagem para a gente fechar o projeto</h2>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Envie uma mensagem"
+          />
+          <input type="submit" name="submit" value="Enviar" />
+        </form>
+        <br />
+        <h4>
+          Para mais informações por favor cliquem no link abaixo para seguirem
+          minhas redes sociais:
+        </h4>
+        <br /><br />
+        <div class="socials">
+          <a
+            class="social-link first-link"
+            href="https://www.instagram.com/vitao_alecrim11/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="social-link second-link"
+            href="https://www.linkedin.com/in/victor-alecrim-90797a239/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            class="social-link third-link"
+            href="https://www.facebook.com/victorcarmo.alecrim"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <br /><br />
+        <h3>Developed by &copy; Victor Alecrim 2022</h3>
+      </section>
+      <!--C-rodapé-->
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 400,
+          delay: 2,
+        })
+      </script>
     </section>
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
