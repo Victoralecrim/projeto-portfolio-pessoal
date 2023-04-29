@@ -1,416 +1,438 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  background-color: #fff;
-  color: black;
+body{
+    background-color: #fff;
+    color: black;
 }
 
 .navbar-brand {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 .navbar-brand a {
-  color: aliceblue;
+    color: aliceblue;
 }
 
+
 span {
-  color: red;
+    color: red;
 }
 
 h3 {
-  font-size: 5px;
-  color: aliceblue;
+    font-size: 5px;
+    color: aliceblue;
 }
 
 .navbar-nav {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .navbar-nav:hover {
-  color: aqua;
+    color: aqua;
 }
 
 .nav-item .nav-link {
-  color: aliceblue;
+    color: aliceblue;
 }
 
 .nav-item .nav-link:hover {
-  color: red;
+    color: red;
 }
 
 .container h1:nth-child(1) {
-  text-align: center;
-  color: rgb(20, 177, 125);
-  text-decoration: underline;
+    text-align: center;
+    color: rgb(20, 177, 125);
+    text-decoration: underline;
 }
 
 .texto-container h1 {
-  margin-top: 10px;
-  text-align: center;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .container-flex {
-  display: flex;
-  align-items: center;
-  margin-left: -5%;
-  margin-top: -2%;
+    display: flex;
+    align-items: center;
+    margin-left: -5%;
+    margin-top: -2%;
 }
 
 .foto-apresentação {
-  display: inline-block;
-  align-items: center;
-  margin-top: 10px;
-  margin-left: 7px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 7px;
 }
 
 @media (min-width: 750px) and (max-width: 1600px) {
-  .foto-apresentação {
-    display: inline-block;
-    margin-top: 20px;
-  }
+    .foto-apresentação {
+        display: inline-block;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 430px) {
-  .foto-apresentação {
-    display: flex;
-    border-radius: 10%;
-    max-width: auto;
-    height: 50%;
-    visibility: hidden;
-    margin-top: 40%;
-  }
+    .foto-apresentação {
+        display: flex;
+        border-radius: 10%;
+        max-width: auto;
+        height: 50%;
+        visibility: hidden;
+        margin-top: 40%;
+    }
+
 }
 
 @media (max-width: 600px) {
-  .foto-apresentação {
-    margin-top: 15px;
-  }
+    .foto-apresentação {
+        margin-top: 15px;
+    }
 }
 
 
-
-.jumbotron .links-container {
-  border-radius: 50%;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  gap: 105px;
-  background: linear-gradient(
-    to right,
-    #5e596d,
-    #775081e3,
-    #da1879,
-    #f2213dc9,
-    #fec051
-  );
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-decoration: none;
-  color: rgb(45, 131, 206);
-  margin: 1%;
+.jumbotron  .links-container {
+    border-radius: 50%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    gap: 105px;
+    background: linear-gradient(to right,#5e596d, #775081e3, #da1879,#f2213dc9,#FEC051);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: rgb(45, 131, 206);
+    margin: 1%;
 }
 
-section .container > h1:nth-child(1) {
-  color: red;
+section .container>h1:nth-child(1) {
+    color: red;
 }
 
 .Container {
-  width: 100%;
-  background-color: #f3eeee;
-  padding: 50px;
-  margin-top: -25%;
+    width: 100%;
+    background-color: #F3EEEE;
+    padding: 50px;
+    margin-top: -25%;
 }
+
 
 .Container h1 {
-  text-align: center;
-  font-size: 70px;
-  font-family: "Inria Sans";
-  font-weight: bold;
-  padding-top: 12%;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 12%;
 }
+
+
+
 
 .Container p {
-  text-align: center;
-  font-family: "Inria Sans";
-  color: #685b5b;
-  margin-top: 25px;
+    text-align: center;
+    font-family: "Inria Sans";
+    color: #685B5B;
+    margin-top: 25px;
+
 }
+
 
 .C-card {
-  display: flex;
-  gap: 2px;
-  justify-content: space-evenly;
-  margin-top: 5%;
-  text-align: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
+
 }
 
+
 .Card {
-  width: 100%;
-  background-color: #fffbfb;
-  padding: 50px;
-  box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    background-color: #FFFBFB;
+    padding: 50px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+
 }
 
 .Card img {
-  width: 75px;
-  height: auto;
+    width: 75px;
+    height: auto;
 }
 
+.C-card-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
 
+}
 
 .Card h3 {
-  font-size: 20px;
-  font-family: "Inria Sans";
-  font-weight: 700;
-  color: red;
+    font-size: 20px;
+    font-family: "Inria Sans";
+    font-weight: 700;
+    color: red;
 }
 
 .Card h4 {
-  font-family: "Inria Sans";
-  font-weight: lighter;
-  color: #beb7b7;
-  margin-top: 15px;
+    font-family: "Inria Sans";
+    font-weight: lighter;
+    color: #BEB7B7;
+    margin-top: 15px;
 }
 
 .Card:hover {
-  transform: scale(1.1);
-  transition-duration: 0.9s;
+    transform: scale(1.1);
+    transition-duration: .9s;
 }
 
+
 @media only screen and (max-width: 414px) {
-  /*===============Serviços================*/
 
-  .Card {
-    margin-top: 35px;
-  }
+    /*===============Serviços================*/
 
-  .C-card-2 {
-    margin-top: 35px;
-  }
+    .Card {
+        margin-top: 35px;
+    }
+
+    .C-card-2 {
+        margin-top: 35px;
+    }
+
+
+
 }
 
 /*===============Projetos================*/
 
 .C-projetos {
-  width: 100%;
-  background-color: #fff;
-  padding: 85px;
+    width: 100%;
+    background-color: #fff;
+    padding: 85px;
 }
 
 .C-projetos h1 {
-  text-align: center;
-  font-size: 65px;
-  font-family: "Inria Sans";
-  font-weight: bold;
-  padding-top: 14%;
+    text-align: center;
+    font-size: 65px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 14%;
 }
 
 .C-projetos p {
-  text-align: center;
-  font-family: "Inria Sans";
-  color: #685b5b;
-  font-weight: lighter;
-  margin-top: 8px;
+    text-align: center;
+    font-family: "Inria Sans";
+    color: #685B5B;
+    font-weight: lighter;
+    margin-top: 8px;
 }
 
 .img-projetos {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
-  margin-top: 150px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 150px;
+    flex-wrap: wrap;
 }
 
 .img-projetos img {
-  width: 450px;
-  height: auto;
-  box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
-  border-radius: 10px;
+    width: 450px;
+    height: auto;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    border-radius: 10px;
 }
 
 .img-2 img {
-  width: 450px;
-  height: auto;
-  margin-left: 32%;
-  margin-top: 35px;
-  box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
-  border-radius: 10px;
+    width: 450px;
+    height: auto;
+    margin-left: 32%;
+    margin-top: 35px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    border-radius: 10px;
 }
 
+
 .C-projetos img:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-  transition-duration: 0.9s;
-  border: solid 2px #180127;
-  border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
+    transition-duration: 0.9s;
+    border: solid 2px #180127;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 414px) {
-  .img-projetos img {
-    width: 300px;
-    height: auto;
-  }
 
-  .img-2 img {
-    width: 300px;
-    height: auto;
-    margin-left: -28px;
-    margin-top: 50px;
-  }
+
+    .img-projetos img {
+        width: 300px;
+        height: auto;
+
+    }
+
+    .img-2 img {
+        width: 300px;
+        height: auto;
+        margin-left: -28px;
+        margin-top: 50px;
+
+    }
 }
 
 .container-services {
-  display: flex;
-  align-items: baseline;
-  position: relative;
-  margin-top: 24%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: center;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    margin-top: 24%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
 }
 
 .container-services p:nth-child(1) {
-  color: red;
-  font-size: 24px;
+    color: red;
+    font-size: 24px;
 }
 
 .our-services-text {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 /*===============Rodapé================*/
 
 .C-rodapé {
-  width: 100%;
-  background-color: #383535;
-  padding: 10%;
-  height: 100%;
-  margin-top: -72px;
+    width: 100%;
+    background-color: #383535;
+    padding: 10%;
+    height: 100%;
+    margin-top: -72px;
 }
 
 .C-rodapé h2 {
-  text-align: center;
-  color: #fff;
-  font-family: "Inria Sans";
-  font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    font-family: "Inria Sans";
+    font-weight: lighter;
 }
 
 .C-rodapé form input:first-child {
-  display: inline-block;
-  width: 100%;
-  padding: 14px 50px 14px 15px;
-  border-radius: 30px;
-  outline: none;
-  border: none;
-  margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+    padding: 14px 50px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
 }
 
 .C-rodapé form input:last-child {
-  position: absolute;
-  display: inline-block;
-  outline: none;
-  border: none;
-  padding: 10px;
-  padding-left: 1%;
-  border-radius: 30px;
-  background-color: #c229aa;
-  color: #fff;
-  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-  right: 10.4%;
-  margin-top: 30px;
-  width: 150px;
-  height: inherit;
-  font-size: 15px;
-  cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px;
+    padding-left: 1%;
+    border-radius: 30px;
+    background-color: #C229AA;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 10.4%;
+    margin-top: 30px;
+    width: 150px;
+    height: inherit;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .C-rodapé form input:last-child:hover {
-  transform: scale(1.1);
-  transition-duration: 0.9s;
+    transform: scale(1.1);
+    transition-duration: 0.9s;
 }
 
-.C-rodapé > h4 {
-  color: rgba(253, 253, 253, 0.438);
-  font-weight: normal;
-  margin-top: 12px;
+.C-rodapé>h4{
+    color: rgba(253, 253, 253, 0.438);
+    font-weight: normal;
+    margin-top: 12px;
 }
 
-.C-rodapé > h3 {
-  color: #858585;
+.C-rodapé>h3{
+    color: #858585;
 }
 
 @media only screen and (max-width: 414px) {
-  .C-rodapé form input:last-child {
-    width: 100px;
-  }
+
+    .C-rodapé form input:last-child {
+        width: 100px;
+
+    }
+
 }
 
 /* Estilização dos icones das redes sociais */
 
 .socials {
-  display: flex;
-  gap: 35px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: stretch;
-  justify-content: center;
-  align-items: stretch;
+    display: flex;
+    gap: 35px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: stretch;
 }
 
-.social-link {
-  border-radius: 50%;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(90deg, #33262a, #f00505);
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-around;
-  text-decoration: none;
-  color: rgb(12, 15, 11);
-  transition: scale(0.15s);
+.social-link{
+    border-radius: 50%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, #33262a, #f00505);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(12, 15, 11);
+    transition: scale(0.15s);
 }
 
 /* i{
     color: orangered;
 } */
 
-i:nth-child(2n + 1):hover {
-  color: rgb(56, 44, 235);
+i:nth-child(2n+1):hover{
+    color: rgb(56, 44, 235);
 }
 
-.imgdarkmode {
-  width: 18px;
-  height: 20px;
-  margin-top: 5px;
-  border: none;
-  margin-right: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  color: white;
+
+.imgdarkmode{
+    width: 18px;
+    height: 20px;
+    margin-top: 5px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
 }
 
 .Dark-mode {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
-.Dark-mode .card-body {
-  color: black;
+.Dark-mode .card-body{
+    color: black;
 }
 
 .Dark-mode .Container {
-  background-color: black;
+    background-color: black;
 }
 
-.contato {
-  font-size: 20px;
+.contato{
+    font-size: 20px;
 }
